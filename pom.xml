@@ -609,7 +609,7 @@
             <dependency>
                 <groupId>com.nimbusds</groupId>
                 <artifactId>oauth2-oidc-sdk</artifactId>
-                <version>11.20.1</version>
+                <version>11.22.2</version>
                 <classifier>jdk11</classifier>
             </dependency>
 
@@ -2575,7 +2575,7 @@
                                     <bannedImport>com.google.api.client.util.Preconditions.*</bannedImport>
                                 </bannedImports>
                             </RestrictImports>
-                            <requireProfileIdsExist />
+                            <requireProfileIdsExist/>
                             <requirePropertyDiverges>
                                 <property>project.description</property>
                             </requirePropertyDiverges>
