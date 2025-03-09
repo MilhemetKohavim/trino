@@ -1595,7 +1595,7 @@
             <dependency>
                 <groupId>io.trino.benchto</groupId>
                 <artifactId>benchto-driver</artifactId>
-                <version>0.33</version>
+                <version>0.34</version>
                 <exclusions>
                     <exclusion>
                         <groupId>ch.qos.logback</groupId>
@@ -2575,7 +2575,7 @@
                                     <bannedImport>com.google.api.client.util.Preconditions.*</bannedImport>
                                 </bannedImports>
                             </RestrictImports>
-                            <requireProfileIdsExist />
+                            <requireProfileIdsExist/>
                             <requirePropertyDiverges>
                                 <property>project.description</property>
                             </requirePropertyDiverges>
